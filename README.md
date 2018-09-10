@@ -4,6 +4,6 @@
 </br>
 - Diego</br>
 - Moises</br>
-- Guilherme</br>
+- Guilherme Souza de Oliveira</br>
 - Sidney de Almeida Fernandes</br>
 - Weslley
