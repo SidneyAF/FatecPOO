@@ -20,6 +20,7 @@
             Meses <input type="text" name="meses"/>
             Taxa de juros <input type="text" name="juros"/>
             <input type="submit" name="enviar" value="Enviar"/>
+            <a href="amortizacao-constante.jsp">Resetar</a>
             <%  if (request.getParameter("valor") != null
                         & request.getParameter("meses") != null
                         & request.getParameter("juros") != null) {
