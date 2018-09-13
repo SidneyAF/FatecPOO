@@ -1,5 +1,13 @@
 <%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
-<a href="home.jsp">HOME</a> ||
-<a href="amortizacao-constante.jsp">AMORTIZAÇÃO CONSTANTE</a> ||
-<a href="tabela-price.jsp">TABELA PRICE</a>
+<ul class="nav justify-content-center bg-dark">
+    <li class="nav-item">
+        <a class="nav-link" href="index.jsp">HOME</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="amortizacao-constante.jsp">AMORTIZAÇÃO CONSTANTE</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="tabela-price.jsp">TABELA PRICE</a>
+    </li>
+</ul>
