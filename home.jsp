@@ -19,9 +19,9 @@
                 <td>Integrantes:</td>
                
                 <td>Moises Santana Silveira</td>
-                <td>Sidney</td>
-                <td>Gui</td>               
-                <td>Wes</td>               
+                <td>Sidney de Almeida Fernandes</td>
+                <td>Guilherme Souza de Oliveira</td>               
+                <td>Weslley</td>               
                 <td>Diego</td>               
             </tr>
             <tr>
@@ -33,6 +33,18 @@
                 <td>Front</td>
                 
             </tr>
+            
+            
+        </table>
+        <table border="1">
+            <tr>
+                <td>Descrição</td>
+                <td>Por meio desta aplicaçao o usuario pode realizar o calculo da amortizaçao americana,amortizacao constante e a tabela price</td>
+            </tr>
+            
+            
+            
+            
             
             
         </table>
