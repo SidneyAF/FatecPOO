@@ -9,6 +9,9 @@
             <a class="nav-link" href="amortizacao-constante.jsp">AMORTIZAÇÃO CONSTANTE</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="amortizacao-americana.jsp">AMORTIZAÇÃO AMERICANA</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="tabela-price.jsp">TABELA PRICE</a>
         </li>
     </ul>

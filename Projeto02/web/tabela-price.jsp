@@ -61,12 +61,18 @@
                 </th>
                 <td><%= formatar.format(saldoDevedor)%>
                 </td>
-                <td><%= formatar.format(parcela)%>
-                </td>
-                <td><%= formatar.format(juros)%>
-                </td>
-                <td><%= formatar.format(amortizacao)%>
-                </td>
+                <% if(i <= 0){ %>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                <% }else{ %>
+                    <td><%= formatar.format(parcela)%>
+                    </td>
+                    <td><%= formatar.format(juros)%>
+                    </td>
+                    <td><%= formatar.format(amortizacao)%>
+                    </td>
+                <% } %>
             </tr>
             <%
                     parcela = valorPresente * taxa / (1 - (1 / (Math.pow((1 + taxa), meses))));
