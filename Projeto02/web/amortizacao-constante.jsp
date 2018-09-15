@@ -73,15 +73,15 @@
             aux3 = aux3 + (saldoDevedor * juros);
             ;
         }%>
-        <tr>
-            <th>#</th>
+        <tr class="bg-danger">
+            <td><strong>Total</strong></td>
             <td><%= aux1 %>
             </td>
             <td><%= formatar.format(aux2) %>
             </td>
             <td><%= aux3 %>
             </td>
-            <td><strong>Total</strong></td>
+            <th>-</th>
         </tr>
         <% } %>
     </table>
